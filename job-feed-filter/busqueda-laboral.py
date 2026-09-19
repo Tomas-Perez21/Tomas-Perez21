@@ -2,7 +2,6 @@ import csv
 from datetime import datetime, timedelta, timezone
 import os
 import re
-import feedparser
 import requests
 
 ARCHIVO_CSV = "avisos_filtrados.csv"
@@ -14,7 +13,7 @@ KEYWORDS_TITULO = [
     "data",
     "analyst",
     "analista",
-    "bi",
+    "bi"
     "operations",
     "operaciones",
     "reporting",
